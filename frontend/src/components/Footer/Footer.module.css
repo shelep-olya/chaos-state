@@ -1,0 +1,66 @@
+.footer {
+    padding: 60px 7% 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+
+.footerContent .logo p {
+    font-weight: 800;
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--main-blue);
+}
+
+.footerContent .logo p .firstLetter {
+    color: var(--pink);
+}
+
+.footerContent .logo p .thin {
+    color: var(--yellow);
+}
+
+.footerContent .logo p .lastLetter {
+    color: var(--green);
+}
+
+.footerContent .logo p:hover {
+    letter-spacing: 0.2rem;
+}
+
+.footerContent h4 {
+    color: var(--main-blue);
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.footerContent li {
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.footerContent li a {
+    display: block;
+    color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.footerContent li a:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+.footerContent p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0;
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --main-blue: #87c7ff;
+    --border-blue: #7c87c9;
+    --yellow: #ebcc31;
+    --pink: #fc369c;
+    --green: #7ab468;
+    --blue: #69cbff;
+    --purple: rgb(205, 128, 229);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.appContainer {
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    color: var(--border-blue);
+    background-image: radial-gradient(
+        circle,
+        rgba(59, 156, 151, 0.479),
+        rgba(196, 184, 80, 0.477),
+        rgba(93, 155, 76, 0.434),
+        rgba(158, 74, 115, 0.491)
+    );
+    background-color: rgba(0, 0, 0, 0.81);
+}

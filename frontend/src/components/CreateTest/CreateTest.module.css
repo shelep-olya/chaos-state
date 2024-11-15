@@ -1,0 +1,220 @@
+.createTestForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px #00000089;
+    border-color: #555555;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.598);
+    overflow-y: auto;
+    position: relative;
+}
+
+.createTestForm h2 {
+    color: var(--main-blue);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testInfo label {
+    color: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.testInfo label input {
+    background-color: rgba(0, 0, 0, 0.198);
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffffffe4;
+}
+
+.testInfo label textarea {
+    background-color: rgba(0, 0, 0, 0.298);
+    resize: vertical;
+    padding: 6px;
+    color: #ffffffe4;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.questionInfo {
+    color: var(--main-blue);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.questionInfo label {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.questionInfo label input {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.298);
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    gap: 0.7rem;
+}
+
+.questionContainer h4 {
+    font-size: 24px;
+    color: var(--main-blue);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.questionContainer input {
+    width: 87%;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.298);
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ffffffe4;
+}
+
+.createTestBtn,
+.prevBtn {
+    padding: 7px 15px;
+    background-color: var(--main-blue);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 3rem;
+}
+.nextInfoBtn {
+    padding: 7px 15px;
+    background-color: var(--main-blue);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20rem;
+}
+
+.nextInfoBtn:hover {
+    background-color: var(--pink);
+}
+
+.btnGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nextBtn {
+    padding: 7px 15px;
+    background-color: var(--main-blue);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    bottom: 0%;
+    right: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 13rem;
+}
+.prevResBtn {
+    padding: 7px 15px;
+    background-color: var(--main-blue);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 13rem;
+}
+.nextResBtn {
+    padding: 7px 15px;
+    background-color: var(--main-blue);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 0rem;
+}
+.nextResBtn:hover {
+    background-color: var(--pink);
+}
+.prevResBtn:hover {
+    background-color: var(--yellow);
+}
+.nextBtn:hover {
+    background-color: var(--pink);
+}
+.prevBtn:hover {
+    background-color: var(--yellow);
+}
+
+.createTestBtn:hover {
+    background-color: var(--pink);
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultContainer h3 {
+    font-size: 24px;
+    color: var(--main-blue);
+    padding-bottom: 1rem;
+}
+
+.resultContainer label {
+    width: 100%;
+    margin-bottom: 0.7rem;
+    color: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.resultContainer label input {
+    padding: 7px 12px;
+    background-color: rgba(0, 0, 0, 0.298);
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ffffffe4;
+}
